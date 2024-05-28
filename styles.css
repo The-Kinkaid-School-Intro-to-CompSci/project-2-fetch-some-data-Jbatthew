@@ -1,21 +1,20 @@
-/** CSS Reset */
-/* You can keep or remove this, if you'd like */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+#user {
+  font-size: 25px;
 }
-
-* {
-  margin: 0;
+body {
+  text-align: center;
+  border-style: groove;
+  border-color: black;
+  border-width: 5px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  color: purple;
 }
-
-/** You can define your own CSS variables here */
-:root {
-  /** Example: */
-  --main-background: rgb(61, 125, 202);
+#standImage {
+  max-width: 200px;
 }
-
-/** Project styling */
-
-/** Your styles go here */
+button {
+  background-color: gold;
+  border-color: darkgoldenrod;
+}

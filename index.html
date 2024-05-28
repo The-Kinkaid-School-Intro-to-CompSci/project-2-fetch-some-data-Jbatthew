@@ -1,13 +1,45 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>The name of your website</title> 
+        <title>What Stand Are You?</title> 
         <link rel="stylesheet" href="styles.css">
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-        Your HTML goes here
+        <h1>What is YOUR Stand?</h1>
+        <div id="questionsBox">
+            <p>What do you aspire to do?</p>
+            <select class="question">
+                <option value="Stardust">Help your family</option>
+                <option value="Diamond">Fight for justice</option>
+                <option value="Vento">Help the people</option>
+                <option value="Stone">Go to prison</option>
+                <option value="Steel">Kill the president</option>
+                <option value="Jojolion">Come into your own</option>
+            </select>
+            <p>How do you handle stressful situations?</p>
+            <select class="question">
+                <option value="speed">Run away</option>
+                <option value="range">Take care of it from a distance</option>
+                <option value="strength">Punch everything that moves</option>
+                <option value="suit">Shield myself from all danger</option>
+                <option value="time">Stop and think</option>
+                <option value="autonomy">Get someone to do it for me</option>
+                <option value="bullet">Shoot everything!</option>
+                <option value="">I'm a wild card!</option>
+            </select>
+        </div>
+        <h1>Use the arrow!</h1>
+        <button id="standArrow"><img src="assets/standarrow.png" alt="Use the Stand Arrow"></button>
+        <div id="stats">
+            <img id="standImage" src="">
+            <h1 class="stat" id="name"></h1>
+            <p class="stat" id="user"></p>
+            <p class="stat" id="japaneseName"></p>
+            <p class="stat" id="alternateName"></p>
+            <p class="stat" id="chapter"></p>
+            <p class="stat" id="abilities"></p>
+            <p class="stat" id="battlecry"></p>
+        </div>
     </body>
 </html>
